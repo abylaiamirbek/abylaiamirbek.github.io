@@ -1,0 +1,381 @@
+/* open-sans-regular - cyrillic */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/open-sans-v34-cyrillic-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/open-sans-v34-cyrillic-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-500 - cyrillic */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/open-sans-v34-cyrillic-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/open-sans-v34-cyrillic-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-600 - cyrillic */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/open-sans-v34-cyrillic-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/open-sans-v34-cyrillic-600.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-700 - cyrillic */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/open-sans-v34-cyrillic-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/open-sans-v34-cyrillic-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-800 - cyrillic */
+  @font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/open-sans-v34-cyrillic-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/open-sans-v34-cyrillic-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* playfair-display-800 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/playfair-display-v30-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/playfair-display-v30-latin-800.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+@import url(fontawesome-all.min.css);
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body {
+	-webkit-text-size-adjust: none;
+}
+mark {
+	background-color: transparent;
+	color: inherit;
+}
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input, select, textarea {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+}
+	html {
+		box-sizing: border-box;
+	}
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+
+	body {
+		background: #2e3842;
+		
+	}
+	body, input, select, textarea {
+		color: #fff;
+		font-family: "Open Sans", Helvetica, sans-serif;
+		font-size: 15pt;
+		font-weight: 400;
+		letter-spacing: 0.075em;
+		line-height: 1.65em;
+	}
+	@media screen and (max-width: 1280px) {
+
+		body, input, select, textarea {
+			font-size: 12pt;
+		}
+
+	}
+	@media screen and (max-width: 736px) {
+
+		body, input, select, textarea {
+			font-size: 11pt;
+			letter-spacing: 0.0375em;
+		}
+
+	}
+
+	.logo{
+		position: absolute;
+		width: 53px;
+		height: 31px;
+		left: 36px;
+		top: 20px;
+
+		font-family: 'Playfair Display';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 23px;
+		line-height: 31px;
+	}
+	.head{
+		width: 450px;
+		height: 40px;
+		padding-top: 25px;
+		padding-left: 60px;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		word-spacing: 20px;
+
+	}
+	.nature{
+		position: absolute;
+		width: 750px;
+		height: 140px;
+		left: 330px;
+		top: 150px;
+
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 550;
+		font-size: 64px;
+		line-height: 95px;
+	}
+	.head2{
+		position: absolute;
+		width: 900px;
+		height: 95px;
+		left: 261px;
+		top: 250px;
+
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 30px;
+		line-height: 95px;
+	}
+
+	.block2 {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+		.block2 .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
+		}
+			.block2 .image img {
+				border-radius: 0;
+				width: 100%;
+			}
+		.block2 .content {
+			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 60%;
+		}
+		.block2:nth-child(2n) {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+		.block2:nth-child(1) {
+			background-color: rgba(0, 0, 0, 0.075);
+		}
+		.block2:nth-child(2) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.block2:nth-child(3) {
+			background-color: rgba(0, 0, 0, 0.225);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.block2 .image {
+				width: 45%;
+			}
+
+			.block2 .content {
+				width: 55%;
+			}
+
+		}
+		@media screen and (max-width: 980px) {
+			.block2 {
+				display: block;
+			}
+
+				.block2 .image {
+					width: 100%;
+				}
+
+				.block2 .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
+
+		}
+		@media screen and (max-width: 736px) {
+
+			.block2 .content {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
+
+		.foot{
+			position: absolute;
+			width: 1185px;
+			height: 450px;
+			margin-top: 20px;
+			left: 80px;
+			right: 80px;
+			margin-bottom: 20px;
+			background: #F0E8E8;
+			line-height: 31px;
+			font-family: 'Open Sans';
+			font-style: normal;
+			display: flex;
+		}
+		.bron{
+			position: absolute;
+			width: 600px;
+			height: 69px;
+			left: 50px;
+			top: 20px;
+			font-weight: 600;
+			font-size: 20px;
+			color: #27305F;
+			font-family: 'Open sans;
+
+		}
+		.contact{
+			margin-top: 40px;
+			margin-left: 50px;
+			font-weight: 600;
+			font-size: 18px;
+			color: #27305F;
+			position: absolute;	
+		}
+		.tel{
+			margin-top: 80px;
+			margin-left: 50px;
+			font-family: 'Open Sans';
+			font-weight: 400;
+			font-size: 17px;
+			color: #27305F;
+
+		}
+		.email{
+			font-family: 'Open Sans';
+			font-weight: 400;
+			font-size: 17px;
+			color: #27305F;
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+		.banner{
+			background-image: url(./images/kazakhstan-steppe-nature-mountains.jpg);
+			width: 100%;
+			height: 800px;
+			background-repeat: no-repeat;
+			background-size: 1350px 760px;
+		}
+		.banner p{
+			margin: 0 auto;
+		}
+		.buttons{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-top: 120px;
+			width: 400px;
+			margin-left: 25px;
+		}
+		.buttons button{
+			width: 100px;
+			height: 30px;
+			background-color: #B2905D;
+			border: none;
+		}
+		.buttons button a{
+			text-decoration: none;
+			color: white;
+		}
+		.element{
+			width: 60%;
+		}
+		.elem{
+			margin: auto 0;
+			width: 20%;
+		}
+		.firstbutton{
+		position: absolute;
+		width: 126px;
+		height: 35px;
+		left: 589px;
+		top: 534px;
+
+		}
+
+
